@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChiPi Technologies - Week Input Demo</title>
+</head>
+<body>
+
+  <h2>ChiPi Technologies - Weekly Task Planner</h2>
+
+  <form>
+    <label for="week1">1. Select Any Week:</label><br>
+    <input type="week" id="week1" name="week1"><br><br>
+
+    <label for="week2">2. Pre-filled (e.g., 2025-W12):</label><br>
+    <input type="week" id="week2" name="week2" value="2025-W12"><br><br>
+
+    <label for="week3">3. Week Between 2024-W01 and 2025-W26:</label><br>
+    <input type="week" id="week3" name="week3" min="2024-W01" max="2025-W26"><br><br>
+
+    <label for="week4">4. Required Week Field:</label><br>
+    <input type="week" id="week4" name="week4" required><br><br>
+
+    <label for="week5">5. Read-Only Week (Fixed):</label><br>
+    <input type="week" id="week5" name="week5" value="2024-W30" readonly><br><br>
+
+    <label for="week6">6. Disabled Week Field:</label><br>
+    <input type="week" id="week6" name="week6" value="2023-W40" disabled><br><br>
+
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Clear Form">
+  </form>
+
+  <p>&copy; 2025 ChiPi Technologies. All rights reserved.</p>
+
+</body>
+</html>

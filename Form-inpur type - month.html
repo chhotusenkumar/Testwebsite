@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChiPi Technologies - Month Input Demo</title>
+</head>
+<body>
+
+  <h2>ChiPi Technologies - Joining Month Entry</h2>
+
+  <form>
+    <label for="month1">1. Basic Month Input:</label><br>
+    <input type="month" id="month1" name="month1"><br><br>
+
+    <label for="month2">2. Allowed Months: Jan 2023 – Dec 2025:</label><br>
+    <input type="month" id="month2" name="month2" min="2023-01" max="2025-12"><br><br>
+
+    <label for="month3">3. Default Value (Pre-filled):</label><br>
+    <input type="month" id="month3" name="month3" value="2024-08"><br><br>
+
+    <label for="month4">4. Required Month (Cannot Submit Empty):</label><br>
+    <input type="month" id="month4" name="month4" required><br><br>
+
+    <label for="month5">5. Read-Only Month (Visible but Non-Editable):</label><br>
+    <input type="month" id="month5" name="month5" value="2023-06" readonly><br><br>
+
+    <label for="month6">6. Disabled Month (Grayed Out):</label><br>
+    <input type="month" id="month6" name="month6" value="2022-11" disabled><br><br>
+
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Clear Form">
+  </form>
+
+  <p>&copy; 2025 ChiPi Technologies. All rights reserved.</p>
+
+</body>
+</html>

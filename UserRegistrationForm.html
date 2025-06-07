@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChiPi Technologies - Student Registration</title>
+</head>
+<body>
+
+  <h2>ChiPi Technologies - Student Registration Form</h2>
+
+  <form>
+    <label for="fullName">Full Name:</label><br>
+    <input type="text" id="fullName" name="fullName" placeholder="e.g., Ramesh Kumar" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" placeholder="e.g., ramesh@example.com" required><br><br>
+
+    <label for="mobile">Mobile Number:</label><br>
+    <input type="tel" pattern="\+91-[0-9]{10}"  id="mobile" name="mobile" placeholder="e.g., +91-9876543210" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+
+    <label for="course">Select Course:</label><br>
+    <select id="course" name="course" required>
+      <option value="">-- Please choose an option --</option>
+      <option value="Java Full Stack">Java Full Stack</option>
+      <option value="Frontend Development">Frontend Development</option>
+      <option value="React with Projects">React with Projects</option>
+      <option value="Data Structures in Java">Data Structures in Java</option>
+      <option value="Python for Beginners">Python for Beginners</option>
+    </select><br><br>
+    <label for="timing">Preferred Batch Timing:</label><br>
+    <input type="text" id="timing" name="timing" placeholder="e.g., Weekend Morning / Evening"><br><br>
+
+    <label for="comments">Any Comments or Questions:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write here..."></textarea><br><br>
+    
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear Form">
+  </form>
+
+  <p>&copy; 2025 ChiPi Technologies. All rights reserved.</p>
+
+</body>
+</html>

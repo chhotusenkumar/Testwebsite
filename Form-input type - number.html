@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChiPi Technologies - Experience Input Demo</title>
+</head>
+<body>
+
+  <h2>ChiPi Technologies - Faculty Experience Form</h2>
+
+  <form>
+    <label for="exp1">1. Enter Experience (any number):</label><br>
+    <input type="number" id="exp1" name="exp1"><br><br>
+
+    <label for="exp2">2. Experience between 0 and 40 years:</label><br>
+    <input type="number" id="exp2" name="exp2" min="0" max="40"><br><br>
+
+    <label for="exp3">3. Default Experience Value (3 years):</label><br>
+    <input type="number" id="exp3" name="exp3" value="3"><br><br>
+
+    <label for="exp4">4. Required Experience Field:</label><br>
+    <input type="number" id="exp4" name="exp4" required><br><br>
+
+    <label for="exp5">5. Experience in Decimal (Step = 0.5):</label><br>
+    <input type="number" id="exp5" name="exp5" step="0.5"><br><br>
+
+    <label for="exp6">6. Read-Only Experience:</label><br>
+    <input type="number" id="exp6" name="exp6" value="5" readonly><br><br>
+
+    <label for="exp7">7. Disabled Experience (not editable):</label><br>
+    <input type="number" id="exp7" name="exp7" value="10" disabled><br><br>
+
+    <label for="exp8">8. Disabled Experience (not editable):</label><br>
+    <input type="number" id="exp8" name="exp8" value="10" min="10" max="20" required><br><br>
+
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Clear Form">
+  </form>
+
+  <p>&copy; 2025 ChiPi Technologies. All rights reserved.</p>
+
+</body>
+</html>
