@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Css-Registation Form</title>
+    </head>
+    <body><h2>Css-Registation Form</h2>
+        <img src="./Images/mysir.jpeg" alt="ChiPi"><br>
+        <p><em><b><u>Director</u></b>-<abbr title="Krishan kumar sinha">kks</abbr></em></p>
+     
+        
+        <p> <em>member image</em></p>
+        <form>
+            <hr>
+          <label for="studentName">student Name:</label> 
+            <input type="text"id="studentName" name="studentName"
+            placeholder="Enter your name"><br><br>
+
+          <label for="Gender">GenderName:</label>
+          <select id="Gender" Name="Gender"required>
+            <option value="">--select--</option>
+            <option value="male">MALE</option>
+            <option value="female">FEMALE</option>
+            <option value="other">OTHER</option><br>
+          </select><br><br>
+
+            <label>Date of Birth:</label>
+        <input type="date" name="dob" required><br><br>
+         <label for="student address">student address:</label> 
+            <input type="text"id="student address" name="student address"
+            placeholder="Enter your address "><br><br>
+             
+             <label for="Distic">DisticName:</label>
+          <select id="Distic" Name="DisticName"required>
+            <option value="">--select--</option>
+            <option value="begusarai">BEGUSARAI</option>
+            <option value="purniya">PURNIYA</option>
+             <option value="bgagalpur">BHAGALPUR</option>
+             </select><br>
+
+             <h2>state-</h2>
+             
+             <input type="radio" name="State" value="Bihar"> Bihar<br>
+      <input type="radio" name="State" value="Westbangal"> Westbangal<br>
+      <input type="radio"  name="State" value="Aasam"> Aasam<br>
+      <input type="radio" name="State" value="Up"> Up<br><br>
+
+       <input type="submit" value="Submit Ditalse">
+
+
+        </form>
+</body>
+</html>
